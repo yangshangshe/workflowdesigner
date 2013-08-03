@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project desc="前瞻性网络分析报告流程节点定义图" id="1" text="前瞻性网络分析报告流程">
+<node desc="" endX="805" endY="264" id="102" nodeImage="canvas_default_node.gif" startX="685" startY="214" text="前瞻性网络分析审核">
+<jump desc="" text="132" toId="103">
+<editor optionId="" optionName="" type="jtextfield" value=""/>
+</jump>
+<jump desc="" text="&gt;=70%" toId="101">
+<editor optionId="=50%,&gt;=70%" optionName="=50%,&gt;=70%" type="combo" value=""/>
+</jump>
+</node>
+<node desc="" endX="448" endY="407" id="103" nodeImage="canvas_default_node.gif" startX="328" startY="357" text="前瞻性网络分析入库"/>
+<node desc="" endX="478" endY="95" id="101" nodeImage="canvas_node_style_1.gif" startX="355" startY="34" text="创建前瞻性网络分析">
+<jump desc="" text="类型2" toId="102">
+<editor optionId="" optionName="" type="jtextfield" value=""/>
+</jump>
+<jump desc="" text="测试" toId="105">
+<editor optionId="" optionName="" type="jtextfield" value=""/>
+</jump>
+</node>
+<node desc="" endX="220" endY="350" id="105" nodeImage="canvas_default_node.gif" startX="120" startY="250" text="新节点"/>
+</project>

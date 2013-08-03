@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project desc="前瞻性网络分析报告流程节点定义图" id="2" text="规划需求流程">
+<node desc="" endX="568" endY="275" id="102" nodeImage="canvas_default_node.gif" startX="448" startY="225" text="需求审核">
+<jump desc="" text="" toId="103"/>
+<jump desc="" text="" toId="101"/>
+</node>
+<node desc="" endX="469" endY="435" id="103" nodeImage="canvas_default_node.gif" startX="349" startY="385" text="需求入库"/>
+<node desc="" endX="693" endY="140" id="104" nodeImage="canvas_default_node.gif" startX="648" startY="80" text="需求退回">
+<jump desc="" text="" toId="102"/>
+</node>
+<node desc="" endX="299" endY="115" id="101" nodeImage="canvas_node_style_1.gif" startX="166" startY="52" text="创建需求">
+<jump desc="" text="" toId="102"/>
+</node>
+</project>
